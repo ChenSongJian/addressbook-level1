@@ -135,6 +135,9 @@ public class AddressBook {
 
     private static final String DIVIDER = "===================================================";
 
+    private static final String COMMAND_EDIT_WORD = "edit";
+    private static final String COMMAND_EDIT_DESC = "Edit an existing contact details in address book";
+    private static final String COMMAND_EDIT_EXAMPLE = COMMAND_EDIT_WORD;
 
     /* We use a String array to store details of a single person.
      * The constants given below are the indexes for the different data elements of a person
